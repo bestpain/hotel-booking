@@ -15,7 +15,7 @@ function connectDB() {
 
 connectDB();
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.get("/", (req: Request, res: Response) => {
   res.json("Hello World!");
